@@ -11,7 +11,7 @@
     "vuepress-theme-reco": "^1.6.10"
   },
   "scripts": {
-    "dev": "vuepress dev src",
-    "build": "vuepress build src"
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
   }
 }
