@@ -15,5 +15,5 @@ jobs:
 
         TARGET_BRANCH: gh-pages    // build 之后推到的分支名
         BUILD_SCRIPT: yarn && yarn build
-        BUILD_DIR: src/.vuepress/dist/     //build 之后的目录
+        BUILD_DIR: docs/.vuepress/dist/     //build 之后的目录
         # CNAME: www.ydlcq.cn
