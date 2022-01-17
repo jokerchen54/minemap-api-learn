@@ -1,0 +1,17 @@
+{
+  "name": "minemap-api-learn",
+  "version": "1.0.0",
+  "description": "minemap-api扫盲行动，尽可能全面地、详细地罗列minemap引擎全部api",
+  "main": "index.js",
+  "author": "laochen",
+  "license": "MIT",
+  "dependencies": {
+    "vuepress": "^1.9.5",
+    "vuepress-theme-melodydl": "^1.1.2",
+    "vuepress-theme-reco": "^1.6.10"
+  },
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  }
+}

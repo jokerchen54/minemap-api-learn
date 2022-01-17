@@ -1,0 +1,19 @@
+name: Build and Deploy
+on: [push]
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@master
+
+    - name: vuepress-deploy
+      uses: jenkey2011/vuepress-deploy@master
+      env:
+        ACCESS_TOKEN: ${{ secrets._TOKEN }} // github Token
+        TARGET_REPO: jokerchen54/minemap-api-learn  // 仓库
+
+        TARGET_BRANCH: gh-pages    // build 之后推到的分支名
+        BUILD_SCRIPT: yarn && yarn build
+        BUILD_DIR: src/.vuepress/dist/     //build 之后的目录
+        # CNAME: www.ydlcq.cn
