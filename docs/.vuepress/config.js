@@ -1,7 +1,7 @@
 module.exports = {
     // 网站 Title
     title: 'Minemap-api-文档对照',
-
+    base: '/minemap-api-learn/',
     // 网站描述
     description: '在这里你将看到比官网还要全的api配置说明',
 
