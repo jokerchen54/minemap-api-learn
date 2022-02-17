@@ -1,5 +1,6 @@
 module.exports = {
   title: "minemap-api",
+  base: '/minemap-api-learn/',
   description: '在这里你可以看到比minemap官网文档更接地气的api说明.',
   dest: 'public',
   // base: '/minemap-api/',
@@ -51,6 +52,7 @@ module.exports = {
       {
         title: 'Minemap实例',
         path: '/docs/minemap-api/minemap/',
+        collapsable: false,
         children: [{
             title: '地图初始化配置项',
             path: "/docs/minemap-api/minemap/Minemap"
@@ -58,6 +60,68 @@ module.exports = {
           {
             title: '地图初始化封装小工具',
             path: "/docs/minemap-api/minemap/MapInit"
+          }
+        ],
+      },
+      {
+        title: 'Sources',
+        path: '/docs/minemap-api/sources/sources',
+        children: [{
+            title: 'Source各类型初始化',
+            path: "/docs/minemap-api/sources/sources"
+          },
+        ],
+      },
+      {
+        title: 'Layers',
+        path: '/docs/minemap-api/layers/',
+        collapsable: false,
+        children: [{
+            title: 'Layers各类型初始化',
+            path: "/docs/minemap-api/layers/Layers"
+          },{
+            title: 'Layers相关进阶操作',
+            path: "/docs/minemap-api/layers/LayersOptions"
+          },{
+            title: 'Expressions表达式详解',
+            path: "/docs/minemap-api/layers/Expressions"
+          },
+        ],
+      },
+      {
+        title: '地图事件',
+        path: '/docs/minemap-api/events/',
+        collapsable: false,
+        children: [{
+            title: '交互事件配置',
+            path: "/docs/minemap-api/events/EventOptions"
+          },{
+            title: '事件监听回调',
+            path: "/docs/minemap-api/events/EventHandler"
+          }
+        ],
+      },{
+        title: '地图工具类',
+        path: '/docs/minemap-api/tools/',
+        collapsable: false,
+        children: [{
+            title: '提取各种通用工具方法(待定)',
+            path: "/docs/minemap-api/tools/"
+          }
+        ],
+      },{
+        title: '界面控件',
+        path: '/docs/minemap-api/controller/',
+        collapsable: false,
+        children: [{
+            title: '地图界面控件',
+            path: "/docs/minemap-api/controller/ViewController"
+          },{
+            title: 'Popup',
+            path: "/docs/minemap-api/controller/Popup"
+          },{
+            title: 'Marker',
+            path: "/docs/minemap-api/controller/Marker"
           }
         ],
       }
