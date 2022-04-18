@@ -1,1 +1,23 @@
-sources
+---
+title: Source的各个类型加载
+date: 2022-03-18
+tags:
+  - Minemap
+  - Source
+---
+
+## 前言
+针对于gis开发，我们经常遇到的需求无非就是在地图上加载各种图片、线段、面，如果是针对这种简单的几何图形上图，我们务必了解清楚geojson，这里就不赘述了，可以参考一下这篇文章[geojson格式学习](https://www.jianshu.com/p/852d7ad081b3)。那这里的source相当于是配置我们将要渲染的数据源。
+
+## Source支持加载类型
+[官网Source介绍](http://minedata.cn/support/static/api/doc/js/v2.1.0/style-specification/index.html#/sources)
+- vector 矢量图
+- raster 栅格图
+- geojson 几何数据
+- image 图片
+- video 视频
+- sphere-image 3d引擎的外景图
+- 3d-model 3d模型
+- 3d-tile 3dtiles资源
+
+### vector

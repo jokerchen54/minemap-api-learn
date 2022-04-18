@@ -60,15 +60,23 @@ module.exports = {
           {
             title: '地图初始化封装小工具',
             path: "/docs/minemap-api/minemap/MapInit"
+          },
+          {
+            title: 'minemap实例方法',
+            path: "/docs/minemap-api/minemap/API"
           }
         ],
       },
       {
         title: 'Sources',
         path: '/docs/minemap-api/sources/sources',
+        collapsable: false,
         children: [{
             title: 'Source各类型初始化',
             path: "/docs/minemap-api/sources/sources"
+          },{
+            title: 'Source实例方法',
+            path: "/docs/minemap-api/sources/API"
           },
         ],
       },
@@ -122,6 +130,18 @@ module.exports = {
           },{
             title: 'Marker',
             path: "/docs/minemap-api/controller/Marker"
+          }
+        ],
+      },{
+        title: '疑难杂症',
+        path: '/docs/minemap-api/controller/',
+        collapsable: false,
+        children: [{
+            title: '诡异的请求报错问题',
+            path: "/docs/minemap-api/controller/ViewController"
+          },{
+            title: '内外网引擎版本不一致解决方案',
+            path: "/docs/minemap-api/controller/Popup"
           }
         ],
       }
