@@ -1,1 +1,0 @@
-http://minedata.cn/support/static/api/doc/js/v2.1.0/api-reference/index.html#map

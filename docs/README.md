@@ -16,7 +16,7 @@ bgImageStyle: {
 }
 isShowTitleInHome: false
 actionText: Guide
-actionLink: /docs/minemap-api/
+actionLink: /pages/b7c95b/
 features:
 - title: 实战积累
   details: 积累在日常工作的minemap开发小技巧
