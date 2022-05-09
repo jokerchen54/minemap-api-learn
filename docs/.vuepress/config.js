@@ -10,10 +10,24 @@ module.exports = {
       rel: 'icon',
       href: '/favicon.ico'
     }],
+    ['link', {
+      rel: 'stylesheet',
+      href: '/lib/minemap.css'
+    }],
+    ['link', {
+      rel: 'stylesheet',
+      href: '/lib/minemap-edit.css'
+    }],
     ['meta', {
       name: 'viewport',
       content: 'width=device-width,initial-scale=1,user-scalable=no'
-    }]
+    }],
+    ['script', {
+      src: '/lib/minemap.js'
+    }],
+    ['script', {
+      src: '/lib/minemap-edit.js'
+    }],
   ],
   theme: 'vdoing',
   themeConfig: {
@@ -102,5 +116,5 @@ module.exports = {
   },
   plugins: [['vuepress-plugin-code-copy', {
     successText: "复制成功"
-    }]]
+    }],'demo-container']
 }
